@@ -13,6 +13,7 @@ public class UserAction {
         return "index";
     }
 
+
     @RequestMapping("/u2")
     public String u2() throws Exception {
         System.out.println("Hello  asdas");
